@@ -1,0 +1,181 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section{
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none; /*Quita las viñetas de las listas desordenadas*/
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+nav .nav-right-section a{
+    margin-right: 25px;
+    color: black;
+}
+
+nav .nav-right-section .menu-icon{
+    background-image: url("https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png");
+    width: 27px;
+    height: 27px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav .nav-right-section img{
+    border-radius: 80px;
+    margin-left: 15px;
+    width: 35px;
+    height: 35px;
+}
+
+main{
+    margin-top: 30px;
+    text-align: center;
+}
+main .main-logo{
+    width: 350px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-logo img{
+    width: 310px;
+    height: 110px;
+}
+
+main .main-input{ /*Estas son clases jeje*/
+    width: 530px;
+    margin: 0 auto; /*los márgenes superior e inferior serán de cero, y el auto para que el espacio de ancho lo acomode en partes iguales*/
+    margin-bottom: 35px;
+}
+
+main .main-input-container{
+    width: 525px;
+    border: 1px solid #dfe1e5;
+    border-radius: 100px; /*redondea los bordes de la cajita de busqueda*/
+    display: flex; /*Revisar: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox*/
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input input{
+    width: 450px;
+    height: 40px;
+    border: none; /*quita el borde de la caja de busqueda*/
+    outline: none; /*ya no se marca el borde de la caja cuando el cursor se pose encima*/
+}
+
+main .main-input-container:hover{
+    box-shadow: 0 1px 6px 0 #20212447; /*hace una sombra en el borde de la caja de busqueda cuando el cursor pasa por encima*/
+    /*los numeros de pixeles son las sombras de cada lado de la caja. Van en el orden de las manecillas del reloj.*/
+}
+
+main .main-input .search-icon{
+    background-image: url("https://img.icons8.com/android/24/000000/search.png");
+    width: 18px;
+    height: 18px;
+    padding-left: 25px; /*recorre la imagen (agrega 25px a la izquierda de la imagen), pero al recorrerla y quedar espacio suficiente, se generan dos imagenes iguales*/
+    background-repeat: no-repeat; /*hace que la doble imagen producida por el padding-left se quite (y se queda una sola)*/
+    background-position: center; /*alinea la imagen*/
+    background-size: contain; /*el tamaño de la imagen se ajusta al espacio del que dispone*/
+}
+
+main .main-input .micro-icon{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png");
+    width: 18px;
+    height: 18px;
+    padding-left: 25px; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: contain;
+}
+
+main .main-input .cam-icon{
+    background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQU9EB56qp8B5qgt89OtkGpN86KFafBM7cBixk1nXOs7ukEVbJE");
+    width: 25px;
+    height: 25px;
+    padding-right: 30px; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: contain;
+}
+
+main .main-buttons{
+    width: 530px;
+    margin: 0 auto;
+}
+
+main .main-buttons div{
+    display: inline-block; /*pones los botones en la misma linea (sin esto, los botones estan verticales)*/
+}
+
+main .main-buttons button{
+    height: 36px;
+    background-color: #f8f9fa; /*color del fondo del boton*/
+    border: 0; /*quita los bordes*/
+    font-size: 14px; /*tamaño de la letra*/
+    color: #5f6368; /*color de la letra*/
+    border-radius: 6px; /*bordes circulares*/
+    padding: 0 15px;
+    margin-right: 12px;
+}
+
+main .main-buttons button:hover{ /*sombra para cuando el cursor esté encima del boton*/
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 0.5px 1px 0 #000001;
+    cursor: pointer;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: #f2f2f2;
+    position: absolute;
+    bottom: 0; /*se va hasta la parte inferior*/
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    align-items: center;
+    font-size: 15px;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer ul{
+    margin: 10px;
+    list-style: none; /*quita las viñetas*/
+    display: flex; /*se acomodan de forma horizontal las viñetas*/
+    padding-left: 0;
+}
+
+footer .footer-left{
+    justify-self: left; /*acomoda toda la lista a la izquierda*/
+}
+
+footer .footer-right{
+    justify-self: right; /*acomoda toda la lista a la derecha*/
+}
+
+footer ul li a{
+    margin: 10px;
+    color: #5f6368;
+}
