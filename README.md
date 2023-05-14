@@ -4,6 +4,7 @@
 * [✨ 1. Intro](https://github.com/SandraJGlez/ClonDeGoogle/tree/main#1-intro-)
 * [🛠 2. ¿Qué construí?](https://github.com/SandraJGlez/ClonDeGoogle/tree/main#2-qu%C3%A9-constru%C3%AD-)
 * [🎯 3. Objetivo del proyecto](https://github.com/SandraJGlez/ClonDeGoogle/tree/main#3-objetivo-del-proyecto-)
+* [🔎 4. Vista previa]()
 
 ****
 
@@ -21,3 +22,6 @@ En este proyecto me enfoqué en construir la clonación de la interfaz de Google
 
 ## 3. Objetivo del proyecto 🎯 
 Aprender a utilizar las etiquetas estándar de HTML5 y los estilos de CSS3
+
+## 4. Vista previa 🔎
+![Interface-Preview](https://github.com/SandraJGlez/ClonDeGoogle/assets/99091788/9649bda8-d872-4045-8931-bd92089d1b20)
