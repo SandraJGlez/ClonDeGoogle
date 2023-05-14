@@ -11,7 +11,7 @@
 ## 1. Intro ✨
 HTML5 trabaja de la mano con CSS3 para crear páginas web que usamos todos los días en el navegador. Incluso, este sitio web en donde estás viendo este contenido está construido con HTML y CSS.
 
-En este proyecto, con los conocimientos de HTML y CSS, realicé una clonación sencilla de la interfaz de Google en el taller de Front-End de Tecnolochicas PRO.
+En este proyecto, con los conocimientos de HTML y CSS, realicé una clonación sencilla de la interfaz de Google en el taller de Front-End de [Tecnolochicas PRO](https://tecnolochicas.mx).
 
 ## 2. ¿Qué construí? 🛠 
 En este proyecto me enfoqué en construir la clonación de la interfaz de Google. Contiene las siguientes secciones:
@@ -21,7 +21,7 @@ En este proyecto me enfoqué en construir la clonación de la interfaz de Google
 * **Footer**: Sección que incluye hipervínculos al final de la página.
 
 ## 3. Objetivo del proyecto 🎯 
-Aprender a utilizar las etiquetas estándar de HTML5 y los estilos de CSS3
+Aprender a utilizar las etiquetas estándar de HTML5 y los estilos de CSS3.
 
 ## 4. Vista previa 🔎
 ![Interface-Preview](https://github.com/SandraJGlez/ClonDeGoogle/assets/99091788/9649bda8-d872-4045-8931-bd92089d1b20)
